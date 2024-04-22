@@ -27,5 +27,5 @@ def capture_image():
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     capture_image()
